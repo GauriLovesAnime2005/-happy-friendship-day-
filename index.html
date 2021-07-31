@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Happy Friendship Day
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/flexboxgrid.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+
+    </head>
+<body>
+<canvas id="snow" class="snow"></canvas>
+    <div class="row">
+        <div class="col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
+            <div id="main">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-6" id="coffee">
+                    </div>
+                    <div class="col-xs-12 col-lg-6" id="wish">
+                        <svg viewBox="0 0">
+                            <!-- Symbol-->
+                            <symbol id="s-text">
+                                <text text-anchor="middle" x="30%" y="20%">Happy</text>
+                                <text text-anchor="middle" x="50%" y="40%">FriendShip</text>
+                                <text text-anchor="middle" x="50%" y="60%">Day</text>
+                            </symbol>
+                            <!-- Duplicate symbols-->
+                            <use class="text" xlink:href="#s-text"></use>
+                            <use class="text" xlink:href="#s-text"></use>
+                            <use class="text" xlink:href="#s-text"></use>
+                            <use class="text" xlink:href="#s-text"></use>
+                            <use class="text" xlink:href="#s-text"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="row center-xs middle-xs">
+                    <div class="col-xs-12 col-lg-6" id="friends">
+                        I know anything is possible as long as you are by my side. So accept these Happy Friendship Day!     From- Gauri Borade
+                    </div>
+                    <div class="col-xs-12 col-lg-6" id="pizza">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/index.js"></script>
+</body>
+</html>
